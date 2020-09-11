@@ -1,11 +1,11 @@
-package _01_introduction_to_java.exercise;
+package _00_demo;
 
 import java.util.Scanner;
 
-public class ReadNumberIntoPhrase {
-    public static String read1To10(int number){
+public class ReadNumToString {
+    static String read1To10(int number) {
         String str = "";
-        switch (number){
+        switch (number) {
             case 1:
                 str = "one";
                 break;
@@ -39,9 +39,9 @@ public class ReadNumberIntoPhrase {
         }
         return str;
     }
-    public static String read11To19(int number){
+    static String read11To19(int number) {
         String str = null;
-        switch (number){
+        switch (number) {
             case 11:
                 str = "eleven";
                 break;
@@ -62,48 +62,55 @@ public class ReadNumberIntoPhrase {
             case 18:
             case 19:
                 int hangDonVi = number % 10;
-                str = read1To10(hangDonVi) +" teen";
+                str = read1To10(hangDonVi) + "teen";
                 break;
         }
         return str;
     }
-    public static String readNumberTy(int number){
+    static String readNumberTy(int number) {
         String str = null;
-        switch (number){
+        switch (number) {
             case 20:
-                str = "Twenty";
+                str = "twenty";
                 break;
             case 30:
-                str = "Thirty";
+                str = "thirty";
                 break;
             case 40:
-                str = "Forty";
+                str = "forty";
                 break;
             case 50:
-                    str = "fifty";
+                str = "fifty";
                 break;
             case 60:
             case 70:
             case 80:
             case 90:
-                int hangchuc = number / 10;
-                str = read1To10(hangchuc) + "ty";
+                int hangChuc = number / 10;
+                str = read1To10(hangChuc) + "ty";
                 break;
-
         }
         return str;
     }
     public static void main(String[] args) {
+        // INPUT
         Scanner scanner = new Scanner(System.in);
-        int number;
-        do {
-            System.out.println("Enter number need read :");
-            number = scanner.nextInt();
-            if(number <= 0 || number > 99){
-                System.out.println("Limit !");
-            }
-        }while (number <= 0 || number > 99);
-      String result = readNumberTy((number / 10)*10) + " "+ read1To10(number % 10);
-        System.out.println(result);
+        System.out.println("Please input number: ");
+        int number = scanner.nextInt();
+        //21
+        int hangChuc = number / 10;
+        String strHangChuc = hangChuc + "0";
+        int hangDonVi = number % 10;
+        String result = readNumberTy(Integer.parseInt(strHangChuc)) + " " + read1To10(hangDonVi);
+        // STEP 5: 3 chu so
+        // 100, 200, 300, 400
+        // readOneHundred(int number) -> hangTram = number / 100
+        // -> read1To10(hangTram) + "one hundred"
+        // hangChucVaDonVi = number % 100;
+        // read1To99(hangChucVaDonVi);
+        // OUTPUT
+        System.out.println("Result: " + result);
+
     }
 }
+
