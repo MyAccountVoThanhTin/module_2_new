@@ -16,6 +16,10 @@ public class Rectangle extends Shape {
         this.width = width;
         this.height = height;
     }
+    public Rectangle(String color, boolean filled, double width) {
+        super(color, filled);
+        this.width = width;
+    }
 
     public double getWidth() {
         return width;

@@ -1,8 +1,8 @@
 package _06_extends.practice._01_shape;
 
 public class Shape {
-    private String color;
-    private boolean filled;
+    protected String color;
+    protected boolean filled;
 
     public Shape(){
         this.color = "green";

@@ -1,7 +1,6 @@
 package _05_access_modifier_static_method_static_property.exercise;
 
 public class Circle {
-    public static final double PI = 3.14;
     private double radius = 1.0;
     private String color = "red";
 
@@ -21,14 +20,15 @@ public class Circle {
         this.radius = radius;
     }
 
-    private double Area(){
-        return this.radius * this.radius * PI;
+    private double area(){
+        return this.radius * this.radius * Math.PI;
     }
 
     public static void main(String[] args) {
         Circle circle = new Circle();
-        System.out.println(circle.Area());
+        System.out.println(circle.area());
         circle.setRadius(2.0);
-        System.out.println(circle.Area());
+        System.out.println(circle.area());
+
     }
 }
