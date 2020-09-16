@@ -1,12 +1,10 @@
-package _06_extends.practice._01_shape;
+package _07_abstract_class_and_interface.exercise._01_colorable;
 
 public class Shape {
-    protected String color = "blue";
-    protected boolean filled = true;
+    private String color = "Green";
+    private boolean filled = true;
 
-    public Shape(){
-        this.color = "green";
-        this.filled = true;
+    public Shape() {
     }
 
     public Shape(String color, boolean filled) {
@@ -29,9 +27,14 @@ public class Shape {
     public void setFilled(boolean filled) {
         this.filled = filled;
     }
-
     @Override
     public String toString() {
-        return "A Shape with "+ getColor() + " and "+(isFilled() ? "filled": "not filled");
+        return "A Shape with color of "
+                + getColor()
+                + " and "
+                + (isFilled() ? "filled" : "not filled");
+    }
+
+    public void resize() {
     }
 }
