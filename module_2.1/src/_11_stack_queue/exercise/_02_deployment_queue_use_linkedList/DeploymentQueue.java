@@ -52,6 +52,7 @@ public class DeploymentQueue<E> {
         deploymentQueue.enQueue(6);
         deploymentQueue.enQueue(7);
         deploymentQueue.enQueue(8);
+        deploymentQueue.deQueue();
         deploymentQueue.displayQueue();
 //        deploymentQueue.deQueue();
 //        System.out.println(deploymentQueue);
