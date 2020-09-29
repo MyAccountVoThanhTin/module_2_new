@@ -31,6 +31,6 @@ public class StringPalindrome {
             check = false;
             break;
         }
-        return (check) ? true : false;
+        return check;
     }
 }

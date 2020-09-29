@@ -45,7 +45,19 @@ public class House extends Services {
         this.floors = floors;
     }
 
-    public String showInfor(){
+    @Override
+    public String toString() {
+        return
+                super.toString() +
+                        "House{" +
+                        "standardRoom='" + standardRoom + '\'' +
+                        ", othersFacilities='" + othersFacilities + '\'' +
+                        ", floors=" + floors +
+
+                        '}';
+    }
+
+    public String showInfor() {
         return " Services House !";
     }
 }

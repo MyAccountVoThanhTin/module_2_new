@@ -2,6 +2,7 @@ package _01_models;
 
 public class Room extends Services {
     private String freeServices;
+
     public Room() {
     }
 
@@ -22,7 +23,16 @@ public class Room extends Services {
         this.freeServices = freeServices;
     }
 
-    public String showInfor(){
+    @Override
+    public String toString() {
+        return
+                super.toString() +
+                        "Room{" +
+                        "freeServices='" + freeServices + '\'' +
+                        '}';
+    }
+
+    public String showInfor() {
         return " Services Room !";
     }
 

@@ -22,7 +22,7 @@ public class TestAnimal {
         System.out.println(person.legs);
         person.move();
         person.growl();
-
+        person.read();
 //        float a = 3.3f;
 //        int b = (int) a;
     }

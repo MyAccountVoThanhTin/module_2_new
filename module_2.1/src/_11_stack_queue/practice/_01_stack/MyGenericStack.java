@@ -1,6 +1,7 @@
 package _11_stack_queue.practice._01_stack;
 
 import java.util.EmptyStackException;
+import java.util.Iterator;
 import java.util.LinkedList;
 
 public class MyGenericStack<T> {

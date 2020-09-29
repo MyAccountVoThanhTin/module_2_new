@@ -68,5 +68,17 @@ public abstract class Services {
         this.typeRent = typeRent;
     }
 
+    @Override
+    public String toString() {
+        return "Services{" +
+                "id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", area=" + area +
+                ", cost=" + cost +
+                ", maxTotalPersons=" + maxTotalPersons +
+                ", typeRent='" + typeRent + '\'' +
+                '}';
+    }
+
     public abstract String showInfor();
 }

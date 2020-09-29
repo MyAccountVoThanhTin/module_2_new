@@ -11,6 +11,6 @@ public class Person extends casting.Animal {
     }
 
     public void read() {
-
+        System.out.println("tin !");
     }
 }

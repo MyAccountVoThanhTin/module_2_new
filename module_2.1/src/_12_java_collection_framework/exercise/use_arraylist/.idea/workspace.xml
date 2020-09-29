@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="27ad6c2b-f4f2-4e54-8b0c-6f7733c8532a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../furamaResort/src/_01_models/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../case_study/furamaResort/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../case_study/furamaResort/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../case_study/furamaResort/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../case_study/furamaResort/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../case_study/furamaResort/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../case_study/furamaResort/FuramaResort.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../case_study/furamaResort/out/production/FuramaResort/_01_models/House.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../case_study/furamaResort/out/production/FuramaResort/_01_models/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../case_study/furamaResort/out/production/FuramaResort/_01_models/Room.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../case_study/furamaResort/out/production/FuramaResort/_01_models/Services.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../case_study/furamaResort/out/production/FuramaResort/_01_models/Villa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../case_study/furamaResort/src/_01_models/House.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../case_study/furamaResort/src/_01_models/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../case_study/furamaResort/src/_01_models/Room.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../case_study/furamaResort/src/_01_models/Services.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../case_study/furamaResort/src/_01_models/Villa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../case_study/furamaResort/src/_03_controllers/MainController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../furamaResort/out/production/FuramaResort/_01_models/House.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../furamaResort/out/production/FuramaResort/_01_models/House.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../furamaResort/out/production/FuramaResort/_01_models/Room.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../furamaResort/out/production/FuramaResort/_01_models/Room.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../furamaResort/out/production/FuramaResort/_01_models/Services.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../furamaResort/out/production/FuramaResort/_01_models/Services.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../furamaResort/out/production/FuramaResort/_01_models/Villa.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../furamaResort/out/production/FuramaResort/_01_models/Villa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../furamaResort/src/_01_models/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../furamaResort/src/_01_models/House.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../furamaResort/src/_01_models/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../furamaResort/src/_01_models/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../furamaResort/src/_01_models/Services.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../furamaResort/src/_01_models/Services.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../furamaResort/src/_01_models/Villa.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../furamaResort/src/_01_models/Villa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../furamaResort/src/_03_controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../furamaResort/src/_03_controllers/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../out/production/module_2.1/_00_demo/casting.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../out/production/module_2.1/_11_stack_queue/optional/exercise/Demerging.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../out/production/module_2.1/_11_stack_queue/optional/exercise/Demerging.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../out/production/module_2.1/_11_stack_queue/optional/exercise/StringPalindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../out/production/module_2.1/_11_stack_queue/optional/exercise/StringPalindrome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../out/production/module_2.1/_11_stack_queue/practice/_01_stack/MyGenericStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../out/production/module_2.1/_11_stack_queue/practice/_01_stack/MyGenericStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../_00_demo/casting.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../_11_stack_queue/optional/exercise/StringPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../_11_stack_queue/optional/exercise/StringPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../_11_stack_queue/practice/_01_stack/MyGenericStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../_11_stack_queue/practice/_01_stack/MyGenericStack.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="ProjectId" id="1hx45FMeZ17MhyywX17B7VjUzWu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="27ad6c2b-f4f2-4e54-8b0c-6f7733c8532a" name="Default Changelist" comment="" />
+      <created>1600939223185</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600939223185</updated>
+      <workItem from="1600939224451" duration="793000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
