@@ -9,23 +9,40 @@ import java.util.List;
 
 public class ReadFile {
     public static final String COMMA = ",";
-    public static final String PATH = "src/_16_text_file/exercise/data/filetest.csv";
+    public static final String PATH = "src/_16_text_file/exercise/data/fileNation";
     public  static List<String[]> readFile(String path) throws IOException {
         List<String[]> list = new LinkedList<>();
+//        BufferedReader bufferedReader = null;
+//        String line = "";
+//        try {
+//          bufferedReader = new BufferedReader(new FileReader(path));
+//          while ((line = bufferedReader.readLine()) != null){
+//              String[] holder = line.split(COMMA);
+//              list.add(holder);
+//          }
+//        } catch (FileNotFoundException e) {
+//            System.out.println(e.getMessage());
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }finally {
+//            bufferedReader.close();
+//        }
+//        return list;
+        FileReader fileReader = null;
         BufferedReader bufferedReader = null;
-        String line = "";
         try {
-          bufferedReader = new BufferedReader(new FileReader(path));
-          while ((line = bufferedReader.readLine()) != null){
-              String[] holder = line.split(COMMA);
-              list.add(holder);
-          }
+            fileReader = new FileReader(new File(path));
+            bufferedReader = new BufferedReader(fileReader);
+            String line = " ";
+            while ((line = bufferedReader.readLine()) != null){
+                list.add(line.split(COMMA));
+            }
         } catch (FileNotFoundException e) {
-            System.out.println(e.getMessage());
+            e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         }finally {
-            bufferedReader.close();
+                fileReader.close();
         }
         return list;
     }
@@ -33,7 +50,7 @@ public class ReadFile {
         List<String[]> list ;
         list = ReadFile.readFile(PATH);
         for (String[] string: list){
-            System.out.println(Arrays.toString(string));
+            System.out.println("ID : "+ string[4] + " Name :"+string[5]);
         }
     }
 }

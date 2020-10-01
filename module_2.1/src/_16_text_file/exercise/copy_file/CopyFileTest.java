@@ -25,25 +25,31 @@ public class CopyFileTest {
         CopyFileTest.writeFile(PATH, line1);
         CopyFileTest.writeFile(PATH, line2);
         CopyFileTest.writeFile(PATH, line3);
-        InputStream inStream = null;
-        OutputStream outStream = null;
-
+        FileWriter fileWriter = null;
+        FileReader fileReader = null;
+        BufferedWriter bufferedWriter = null;
+        BufferedReader bufferedReader = null;
         try {
-            inStream = new FileInputStream(new File(PATH));
-            outStream = new FileOutputStream(new File(PATH1));
-
-            int length;
-            byte[] buffer = new byte[1024];
-            while ((length = inStream.read(buffer)) > 0) {
-                outStream.write(buffer, 0, length);
+             fileWriter = new FileWriter(new File(PATH1));
+             bufferedWriter = new BufferedWriter(fileWriter);
+             fileReader = new FileReader(new File(PATH));
+             bufferedReader = new BufferedReader(fileReader);
+             String string = null;
+            while ((string = bufferedReader.readLine()) != null) {
+                bufferedWriter.write(string);
+                bufferedWriter.newLine();
             }
-            System.out.println("File is copied successful!");
-        } catch (IOException e) {
+        }catch (IOException e){
             e.printStackTrace();
-        } finally {
-            inStream.close();
-            outStream.close();
-
         }
+        finally {
+            if(bufferedWriter != null){
+                bufferedWriter.close();
+            }
+            if(fileWriter == null){
+                fileWriter.close();
+            }
+        }
+
     }
 }

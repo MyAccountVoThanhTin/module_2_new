@@ -1,6 +1,8 @@
 package _12_java_collection_framework.exercise.use_arraylist;
 
-public class Product {
+import java.io.Serializable;
+
+public class Product implements Serializable {
     private int idProduct;
     private String nameProduct;
     private double costProduct;
