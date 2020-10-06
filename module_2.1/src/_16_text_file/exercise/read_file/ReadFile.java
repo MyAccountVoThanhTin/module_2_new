@@ -53,4 +53,5 @@ public class ReadFile {
             System.out.println("ID : "+ string[4] + " Name :"+string[5]);
         }
     }
+
 }
