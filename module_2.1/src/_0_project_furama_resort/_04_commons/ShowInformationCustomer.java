@@ -11,10 +11,12 @@ public class ShowInformationCustomer {
     public void showInformationCustomer(){
         System.out.println("List customer is : ");
         List<Customer> list = listCustomer(FILE_CUSTOMER);
+        int i = 0;
         Collections.sort(list,new CustomerSortByNameAndBirthday());
         for (Customer customer : list){
-            customer.showInfo();
-            System.out.println();
+            i++;
+            System.out.println("Customer "+i+" is :");
+            System.out.println(customer.showInfo());
         }
     }
 

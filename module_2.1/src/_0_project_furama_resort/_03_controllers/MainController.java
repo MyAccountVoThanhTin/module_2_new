@@ -23,9 +23,11 @@ public class MainController {
         switch (choose) {
             case 1:
                 new AddNewServices().addNewServices();
+                displayMainMenu();
                 break;
             case 2:
                 new ShowServices().show();
+                displayMainMenu();
                 break;
             case 3:
                 new AddNewCustomer().addNewCustomer();
@@ -36,6 +38,8 @@ public class MainController {
                 displayMainMenu();
                 break;
             case 5:
+                new AddNewBooking().addNewBooking();
+                displayMainMenu();
                 break;
             case 6:
                 break;

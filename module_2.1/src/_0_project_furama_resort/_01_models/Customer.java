@@ -100,8 +100,8 @@ public class Customer {
         this.services = services;
     }
 
-    public void showInfo(){
-        System.out.println(  "nameCustomer='" + nameCustomer + '\'' +
+    public String showInfo(){
+        return "nameCustomer='" + nameCustomer + '\'' +
                 ", birthdayCustomer='" + birthdayCustomer + '\'' +
                 ", gender='" + gender + '\'' +
                 ", idcardCustomer='" + idcardCustomer + '\'' +
@@ -109,6 +109,6 @@ public class Customer {
                 ", emailCustomer='" + emailCustomer + '\'' +
                 ", typeCustomer='" + typeCustomer + '\'' +
                 ", addressCustomer='" + addressCustomer + '\'' +
-                ", services=" + services );
+                ", services=" + services ;
     }
 }

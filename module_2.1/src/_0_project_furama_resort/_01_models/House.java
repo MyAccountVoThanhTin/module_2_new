@@ -48,7 +48,7 @@ public class House extends Services {
     @Override
     public void showInfor() {
         System.out.println("House{" +
-                ", idServices='" + idServices + '\'' +
+                " idServices='" + idServices + '\'' +
                 ", nameServices='" + nameServices + '\'' +
                 ", areaUseServices=" + areaUseServices +
                 ", rentCostServices=" + rentCostServices +

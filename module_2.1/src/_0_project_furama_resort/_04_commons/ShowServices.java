@@ -58,7 +58,7 @@ public class ShowServices {
         }
     }
 
-    private void showAll(String path) {
+    public void showAll(String path) {
         List<String> list = ReadWriteFile.readFile(path);
         String[] arrlist;
         if (path.equals(FILE_VILLA)) {

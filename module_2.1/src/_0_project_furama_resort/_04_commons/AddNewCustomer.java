@@ -7,8 +7,8 @@ import java.util.Scanner;
 import java.util.regex.Pattern;
 
 public class AddNewCustomer {
-    private static final String COMMA = ",";
-    private static final String FILE_CUSTOMER = "D:\\CodeGym_VoThanhTin\\module_2_new\\module_2.1\\src\\_0_project_furama_resort\\_05_data\\Customer.csv";
+    public static final String COMMA = ",";
+    public static final String FILE_CUSTOMER = "D:\\CodeGym_VoThanhTin\\module_2_new\\module_2.1\\src\\_0_project_furama_resort\\_05_data\\Customer.csv";
     Scanner scanner = new Scanner(System.in);
 
     public AddNewCustomer() {
