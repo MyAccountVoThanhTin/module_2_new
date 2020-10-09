@@ -28,13 +28,13 @@ public class Room extends Services{
     @Override
     public void showInfor() {
         System.out.println("Room{" +
-                "freeServices=" + freeServices +
                 ", idServices='" + idServices + '\'' +
                 ", nameServices='" + nameServices + '\'' +
                 ", areaUseServices=" + areaUseServices +
                 ", rentCostServices=" + rentCostServices +
                 ", totalPerson=" + totalPerson +
                 ", typeRent='" + typeRent + '\'' +
+                "freeServices=" + freeServices +
                 '}');
     }
 }

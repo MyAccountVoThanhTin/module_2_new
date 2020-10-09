@@ -10,10 +10,10 @@ public class ReadWriteFile {
     public static void writeFile(String path, String line) {
         BufferedWriter bufferedWriter = null;
         try {
-            bufferedWriter = new BufferedWriter(new FileWriter(path,true));
+            bufferedWriter = new BufferedWriter(new FileWriter(path, true));
             bufferedWriter.write(line);
             bufferedWriter.newLine();
-        }catch (EOFException ex){
+        } catch (EOFException ex) {
             System.out.println();
         } catch (IOException e) {
             e.printStackTrace();
@@ -33,19 +33,14 @@ public class ReadWriteFile {
         try {
             String line = "";
             bufferedReader = new BufferedReader(new FileReader(file));
-           // if(file.list().length > 0){
-                while ((line = bufferedReader.readLine()) != null) {
-                    list.add(line);
-               // }
-           // }else {
-            //    System.out.println("File empty !");
+            while ((line = bufferedReader.readLine()) != null) {
+                list.add(line);
             }
-        }catch (ArrayIndexOutOfBoundsException c){
-            System.out.println("File empty");
-        }
-        catch (NullPointerException a){
+        } catch (ArrayIndexOutOfBoundsException c) {
+            c.getMessage();
+        } catch (NullPointerException a) {
             a.getStackTrace();
-        }catch (FileNotFoundException ex){
+        } catch (FileNotFoundException ex) {
             ex.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();

@@ -48,15 +48,15 @@ public class House extends Services {
     @Override
     public void showInfor() {
         System.out.println("House{" +
-                "standardRoom='" + standardRoom + '\'' +
-                ", ortherFacilities='" + otherFacilities + '\'' +
-                ", numberOfFloor=" + numberOfFloor +
                 ", idServices='" + idServices + '\'' +
                 ", nameServices='" + nameServices + '\'' +
                 ", areaUseServices=" + areaUseServices +
                 ", rentCostServices=" + rentCostServices +
                 ", totalPerson=" + totalPerson +
                 ", typeRent='" + typeRent + '\'' +
+                "standardRoom='" + standardRoom + '\'' +
+                ", ortherFacilities='" + otherFacilities + '\'' +
+                ", numberOfFloor=" + numberOfFloor +
                 '}');
     }
 }
