@@ -10,46 +10,37 @@ public class MainController {
     Scanner scanner = new Scanner(System.in);
 
     public void displayMainMenu() {
-        System.out.println("Enter your choose !\n" +
-                "Menu : \n" +
-                "1.\tAdd New Services\n" +
-                "2.\tShow Services\n" +
-                "3.\tAdd New Customer\n" +
-                "4.\tShow Information of Customer\n" +
-                "5.\tAdd New Booking\n" +
-                "6.\tShow Information of Employee\n" +
-                "7.\tExit\n");
-        int choose = scanner.nextInt();
-        switch (choose) {
-            case 1:
+        int choose;
+        do {
+            System.out.println("Enter your choose !\n" +
+                    "Menu : \n" +
+                    "1.\tAdd New Services\n" +
+                    "2.\tShow Services\n" +
+                    "3.\tAdd New Customer\n" +
+                    "4.\tShow Information of Customer\n" +
+                    "5.\tAdd New Booking\n" +
+                    "6.\tShow Information of Employee\n" +
+                    "7.\tExit\n");
+            System.out.print("Please input your choice :");
+            choose = scanner.nextInt();
+            if(choose == 1 ){
                 new AddNewServices().addNewServices();
-                displayMainMenu();
-                break;
-            case 2:
+            }else if(choose == 2 ){
                 new ShowServices().show();
-                displayMainMenu();
-                break;
-            case 3:
+            }else if(choose == 3 ){
                 new AddNewCustomer().addNewCustomer();
-                displayMainMenu();
-                break;
-            case 4:
+            }else if(choose == 4 ){
                 new ShowInformationCustomer().showInformationCustomer();
-                displayMainMenu();
-                break;
-            case 5:
+            }else if(choose == 5 ){
                 new AddNewBooking().addNewBooking();
-                displayMainMenu();
-                break;
-            case 6:
-                break;
-            case 7:
+            }else if(choose == 6 ){
+                new ShowInforEmployee().showInforEmployee();
+            }else if(choose == 7 ){
                 System.exit(0);
-                break;
-            default:
-                System.out.println("Enter your choose again [1-7]!");
-                displayMainMenu();
-        }
+            }
+        } while (choose >= 1 && choose <= 7);
+        System.out.println("Choose Again [1-7] ");
+        displayMainMenu();
     }
 
     public static void main(String[] args) {
