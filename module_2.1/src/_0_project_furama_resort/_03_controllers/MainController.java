@@ -45,6 +45,7 @@ public class MainController {
 
     public static void main(String[] args) {
         new MainController().displayMainMenu();
+        new Cinema();
     }
 }
 
